@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="bg">
+        <form name="calculator">
+    <input  name="output" type="text"><br>
+
+    <input type="button" value="7" onclick="calculator.output.value += '7'"/>
+    <input type="button" value="8" onclick="calculator.output.value += '8'"/>
+    <input type="button" value="9" onclick="calculator.output.value += '9'"/>
+    <button id="C" type="reset">C</button>
+    <br>
+    <input type="button" value="4" onclick="calculator.output.value += '4'"/>
+    <input type="button" value="5" onclick="calculator.output.value += '5'"/>
+    <input type="button" value="6" onclick="calculator.output.value += '6'"/>
+    <input type="button" id="mul" value="x" onclick="calculator.output.value += '*'"/>
+    <br>
+    <input type="button" value="1" onclick="calculator.output.value += '1'"/>
+    <input type="button" value="2" onclick="calculator.output.value += '2'"/>
+    <input type="button" value="3" onclick="calculator.output.value += '3'"/>
+    <input type="button" id="add" value="+" onclick="calculator.output.value += '+'"/>
+    <br>
+    <input type="button" value="0" onclick="calculator.output.value += '0'"/>
+    <input type="button" value="." onclick="calculator.output.value += '.'"/>
+    <input type="button" id="sub" value="-" onclick="calculator.output.value += '-'"/>
+    <input type="button" id="devide" value="/" onclick="calculator.output.value += '/'"/>
+    <br>
+    <input type="button" id="isi" value="=" onclick="calculator.output.value += '='"/>
+
+
+    
+</form>
+    
+    
+</div>
+
+</body>
+</html>
